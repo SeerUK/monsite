@@ -10,7 +10,7 @@
 *	
 */
 
-require_once '../core/Config.inc';
+require_once __DIR__ . '/../core/Config.inc';
 
 class Database {
 	private static $_instance = null;
